@@ -1,7 +1,7 @@
 {
   "name": "react-native-gigasource-keelin-temperature-beacon",
   "title": "React Native GigaSource Keelin Temperature Beacon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reading Keelin Temperature Beacon information",
   "main": "index.js",
   "keywords": [
