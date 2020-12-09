@@ -10,12 +10,21 @@ npm install react-native-gigasource-keelin-temperature-beacon
 
 ## Usage
 
+Android manifest:
+```
+<uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+```
+
+
 ```js
-import GigasourceKeelinTemperatureBeacon from "react-native-gigasource-keelin-temperature-beacon";
+import KTB from "react-native-gigasource-keelin-temperature-beacon";
 
 // ...
 
-const result = await GigasourceKeelinTemperatureBeacon.multiply(3, 7);
+const result = await KTB.getInfo("<mac address>");
 ```
 
 ## Contributing
