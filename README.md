@@ -1,4 +1,4 @@
-# react-native-gigasource-keelin-temperature-beacon
+# rn-keelin-temperature-beacon
 
 Reading Keelin Temperature Beacon information
 
